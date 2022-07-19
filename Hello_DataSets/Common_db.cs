@@ -47,7 +47,7 @@ namespace Hello_DataSets
                     //user_table.AcceptChanges();
                     DataRow row = user_table.NewRow();
                     char[] chars = new char[3];
-                    string temp = "C17";
+                    string temp = "C15";
                         
                     row["course_id"] = temp;
                     row[1] = "ADO.NET";
@@ -58,21 +58,23 @@ namespace Hello_DataSets
                     row[6] = 34;
                     row[7] = DateTime.Now;
                     row[8] = 1;
-                    user_table.Rows.Add(row);
-                    user_table.AcceptChanges();
-                    row.SetModified();
+                    //user_table.Rows.Add(row);
+                    //user_table.AcceptChanges();
+                    //row.SetAdded();
                     commandText = $"delete from courses where course_id =  'C14'";
                     SqlCommand command = conn.CreateCommand();
                     command.CommandText = commandText;
-                    command.ExecuteNonQuery();
-                    for (int i = 0; i < row.Table.Columns.Count; i++)
-                    {
-                        Console.WriteLine(row[i]);
-                    }
+                    command.Connection = conn;
+                    command.Parameters.AddWithValue("@COURSE_ID", "C15");
+                    Console.WriteLine(command.ExecuteNonQuery());
+                    //for (int i = 0; i < row.Table.Columns.Count; i++)
+                    //{
+                    //    Console.WriteLine(row[i]);
+                    //}
                     result = true;
                     Console.ReadKey();
                     //user_table.AcceptChanges();
-                   // Console.WriteLine(adapter.Update(user_table)); 
+                    Console.WriteLine(adapter.Update(user_table)); 
                     
                 }
             }

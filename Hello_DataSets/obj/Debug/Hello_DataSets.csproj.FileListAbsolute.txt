@@ -32,3 +32,11 @@ C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_Data
 C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\obj\Debug\Hello_DataSets.csproj.CoreCompileInputs.cache
 C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\obj\Debug\Hello_DataSets.exe
 C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\obj\Debug\Hello_DataSets.pdb
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DBSet\Hello_DataSets\bin\Debug\Hello_DataSets.exe.config
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DBSet\Hello_DataSets\bin\Debug\Hello_DataSets.exe
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DBSet\Hello_DataSets\bin\Debug\Hello_DataSets.pdb
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DBSet\Hello_DataSets\obj\Debug\Hello_DataSets.csproj.AssemblyReference.cache
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DBSet\Hello_DataSets\obj\Debug\Hello_DataSets.csproj.SuggestedBindingRedirects.cache
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DBSet\Hello_DataSets\obj\Debug\Hello_DataSets.csproj.CoreCompileInputs.cache
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DBSet\Hello_DataSets\obj\Debug\Hello_DataSets.exe
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DBSet\Hello_DataSets\obj\Debug\Hello_DataSets.pdb
