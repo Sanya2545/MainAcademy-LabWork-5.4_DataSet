@@ -1,0 +1,34 @@
+C:\Users\win7\Documents\Visual Studio 2013\Projects\databases\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.exe.config
+C:\Users\win7\Documents\Visual Studio 2013\Projects\databases\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\databases\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\databases\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\databases\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\databases\Hello_DataSets\Hello_DataSets\bin\Debug\tect_datasets_db.mdf
+C:\Users\win7\Documents\Visual Studio 2013\Projects\databases\Hello_DataSets\Hello_DataSets\bin\Debug\tect_datasets_db_log.ldf
+C:\Users\win7\Documents\Visual Studio 2013\Projects\databases\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.csprojResolveAssemblyReference.cache
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\ado_net_174\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\ado_net_174\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\ado_net_174\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\ado_net_174\Hello_DataSets\Hello_DataSets\bin\Debug\tect_datasets_db.mdf
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\ado_net_174\Hello_DataSets\Hello_DataSets\bin\Debug\tect_datasets_db_log.ldf
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\ado_net_174\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\ado_net_174\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\ado_net_174\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.csprojResolveAssemblyReference.cache
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\upgrade\begin\ado_net_174\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\upgrade\begin\ado_net_174\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\270416_22\Lab_1_7_4\upgrade\begin\ado_net_174\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.pdb
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.csproj.AssemblyReference.cache
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.csproj.CoreCompileInputs.cache
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.exe
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DataSets\Hello_DataSets\obj\Debug\Hello_DataSets.pdb
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.exe.config
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.exe
+D:\MainAcademy\C# .NET\LabWorks\Module_5\LabWork#5.4\Hello_DataSets\Hello_DataSets\bin\Debug\Hello_DataSets.pdb
+C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\bin\Debug\Hello_DataSets.exe.config
+C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\bin\Debug\Hello_DataSets.exe
+C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\bin\Debug\Hello_DataSets.pdb
+C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\obj\Debug\Hello_DataSets.csproj.AssemblyReference.cache
+C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\obj\Debug\Hello_DataSets.csproj.SuggestedBindingRedirects.cache
+C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\obj\Debug\Hello_DataSets.csproj.CoreCompileInputs.cache
+C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\obj\Debug\Hello_DataSets.exe
+C:\Users\yasoc\Downloads\Alexandr\LabWork#5.4\MainAcademy-LabWork-5.4\Hello_DataSets\obj\Debug\Hello_DataSets.pdb
