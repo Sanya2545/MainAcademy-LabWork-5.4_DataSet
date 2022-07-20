@@ -25,7 +25,7 @@ namespace Hello_DataSets
                 da.Fill(dataTableUser);
                 
                 common_Db.MyTable_delete(dataTableUser, "something", "Mathematics");
-
+                common_Db.MyTable_update(dataTableUser, "course_id", "5", "course_id", "5");
             }
             
             //    DB_work mywrk = new DB_work(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\tect_datasets_db.mdf;Integrated Security=True;Connect Timeout=30");

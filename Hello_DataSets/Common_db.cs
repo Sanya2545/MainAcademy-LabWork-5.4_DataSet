@@ -31,10 +31,10 @@ namespace Hello_DataSets
             {
                 using (SqlConnection conn = new SqlConnection(MyConnectionString))
                 {
+                    conn.Open();
                     string commandText = $"Select * from courses";
                     SqlCommand cmd = new SqlCommand(commandText, conn);
                     SqlDataAdapter adapter = CreateCustomerAdapter(MyConnectionString);
-                    conn.Open();
                     DataSet ds = new DataSet();
                     adapter.Fill(ds, user_table.TableName);
                     char[] charArr = new char[40];
@@ -61,19 +61,15 @@ namespace Hello_DataSets
                     //user_table.Rows.Add(row);
                     //user_table.AcceptChanges();
                     //row.SetAdded();
-                    commandText = $"delete from courses where course_id =  'C14'";
+                    
+                    commandText = $"delete from courses where course_id =  'C13'";
                     SqlCommand command = conn.CreateCommand();
                     command.CommandText = commandText;
                     command.Connection = conn;
-                    command.Parameters.AddWithValue("@COURSE_ID", "C15");
+                    command.Parameters.AddWithValue("@COURSE_ID", "C13");
                     Console.WriteLine(command.ExecuteNonQuery());
-                    //for (int i = 0; i < row.Table.Columns.Count; i++)
-                    //{
-                    //    Console.WriteLine(row[i]);
-                    //}
                     result = true;
                     Console.ReadKey();
-                    //user_table.AcceptChanges();
                     Console.WriteLine(adapter.Update(user_table)); 
                     
                 }
@@ -155,7 +151,7 @@ namespace Hello_DataSets
 
             // Create the DeleteCommand.
             command = new SqlCommand(
-                "DELETE FROM courses WHERE course_id = @COURSE_ID", connection);
+                "DELETE FROM courses WHERE course_id = '@COURSE_ID'", connection);
 
             // Add the parameters for the DeleteCommand.
             parameter = command.Parameters.Add(
@@ -208,7 +204,53 @@ namespace Hello_DataSets
 
 
 
+        public bool MyTable_update(DataTable user_table, string key, string key_value, string clmn, string clmn_value)
+        {
+            bool result = false;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(MyConnectionString))
+                {
+                    SqlCommand command = new SqlCommand($"select * from {user_table.TableName}", conn);
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+                    adapter.Fill(user_table);
+                    DataColumn dataColumn = new DataColumn(key);
+                    dataColumn.DefaultValue = key_value.ToCharArray();
+                    dataColumn.AllowDBNull = false;
+                    dataColumn.DataType = typeof(string);
+                    dataColumn.AutoIncrement = true;
+                    dataColumn.Unique = true;
+                    dataColumn.DefaultValue = 0;
+                    dataColumn.AutoIncrementStep = 1;
+                    var keys = new DataColumn[1];
+                    keys[0] = dataColumn;
+                    user_table.PrimaryKey = keys;
+                    user_table.AcceptChanges();
 
+
+                    DataRow dataRow = user_table.NewRow();
+                    dataRow[0] = key_value;
+                    string query = $"UPDATE courses SET {dataColumn.ColumnName} = {clmn_value} where {key} = '3'";
+                    command = new SqlCommand(query, conn);
+
+                    adapter.UpdateCommand = conn.CreateCommand();
+                    adapter.UpdateCommand = command;
+                    command.Connection = conn;
+
+                    conn.Open();
+                    Console.WriteLine(adapter.UpdateCommand.ExecuteNonQuery());
+                    result = true;
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Stack Trace : " + ex.StackTrace + "\nMessage : " + ex.Message);
+                result = false;
+                return result;
+            }
+
+        }
         // implement bool MyTable_update(DataTable usr_table, string key, string key_value, string clmn, string clmn_value) method
         // with parameters fot DataTable , string key name, string key value, string clmn, string clmn_value to update row
 
