@@ -289,7 +289,24 @@ namespace Hello_DataSets
         // return false
 
 
-
+        public bool MyTable_insert_bldr(string user_table, string[] clmn, string clmn_value)
+        {
+            bool result = false;
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(MyConnectionString))
+                {
+                    SqlCommand command = new SqlCommand(MyConnectionString);
+                    command.CommandText = $"Select * from {user_table}";
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Message : " + ex.Message + "\nStack Trace : " + ex.StackTrace);
+                result = false;
+                return result;
+            }
+        }
         // implement bool MyTable_insert_bldr(string usr_table, string key,  string[] clmn, string[] clmn_value) method
         // with parameters fot DataTable , string key name, string clmn, string clmn_value to insert row
 
